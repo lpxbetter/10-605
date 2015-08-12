@@ -1,0 +1,6 @@
+2015-03-01T22:22:36.920Z INFO Fetching jar file.
+2015-03-01T22:22:44.780Z INFO Working dir /mnt/var/lib/hadoop/steps/4
+2015-03-01T22:22:44.781Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/4 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/4/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/4/NBTrain.jar s3://bigmldatasets/rcv1/full/ s3://liping/output/NBTrain2 2
+2015-03-01T22:31:08.501Z INFO Execution ended with ret val 0
+2015-03-01T22:31:15.559Z INFO Step created jobs: job_201503012101_0003
+2015-03-01T22:31:22.701Z INFO Step succeeded
