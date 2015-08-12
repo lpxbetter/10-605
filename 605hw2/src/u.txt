@@ -1,0 +1,3 @@
+a	Cx=2	Bx=120
+aa	Cx=11	Bx=60
+abandon	Cx=23	Bx=30
